@@ -2,6 +2,19 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
 
+        int myInt = 20;
+        byte myByte = 7;
+        short myShort = 850;
+        long myLong = 110000L;
+        float myFloat = 6.5f;
+        double myDouble = 11.99;
+        System.out.println("Значение переменной myInt с типом int равно " + myInt);
+        System.out.println("Значение переменной myByte с типом byte равно " + myByte);
+        System.out.println("Значение переменной myShort с типом short равно " + myShort);
+        System.out.println("Значение переменной myLong с типом long равно " + myLong);
+        System.out.println("Значение переменной myFloat с типом float равно " + myFloat);
+        System.out.println("Значение переменной myDouble с типом double равно " + myDouble);
+
         float a = 27.12f;
         System.out.println("а = " + a);
         long b = 987678965549L;
